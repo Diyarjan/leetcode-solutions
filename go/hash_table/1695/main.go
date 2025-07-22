@@ -34,5 +34,7 @@ func maximumUniqueSubarray(nums []int) int {
 func main() {
 
 	fmt.Println(maximumUniqueSubarray([]int{5, 2, 1, 2, 5, 2, 1, 2, 5}))
+	fmt.Println(maximumUniqueSubarray([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}))
+	fmt.Println(maximumUniqueSubarray([]int{4,2,4,5,6}))
 
 }
